@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
         //Step 1 . find the IDs from XML and add image.
         //Adding image from here because we want it only to appear at run time.
         final ImageView img_large = findViewById(R.id.image_view_large);
-        img_large.setImageResource(R.drawable.drawing);
-
         //Step 2. find the seeker and associate a onClick listener
         SeekBar seekBar = findViewById(R.id.seek_bar);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {

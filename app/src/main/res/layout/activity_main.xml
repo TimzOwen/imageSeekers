@@ -10,7 +10,7 @@
     
     <ImageView
         android:id="@+id/image_tuned"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_weight="2"
         android:src="@drawable/drawing"
         android:layout_height="0dp"/>
@@ -23,5 +23,6 @@
         android:id="@+id/image_view_large"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:src="@drawable/drawing"
         android:layout_weight="8"/>
 </LinearLayout>
